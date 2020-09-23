@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>CPF Manager</title>
+	<link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+	<section class="container">
+		<h1>CPF Manager</h1>
+		<div class="campoValidador">
+			<input type="text" class="input inputText" placeholder="Digite aqui seu CPF..." onchange="">
+			<button class="botao botaoEnvio">Verificar</button>
+		</div>
+		<div class="campoGerador">
+			<input type="text" class="input inputDisplay" readonly="true" placeholder="...você pode também gerar um CPF" onchange="">
+			<button class="botao botaoGerar">Gerar CPF</button>
+		</div>
+		<div>
+			<ul class="listaObservacoes">
+				<li>Você pode digitar seu CPF da maneira que achar melhor. Ex.:</li>
+				<li>XXXXXXXXXXX</li>
+				<li>ou...</li>
+				<li>XXX.XXX.XXX-XX</li>
+				<li>ou até mesmo assim:</li>
+				<li>XXX XXX XXX XX</li>
+			</ul>
+		</div>
+	</section>
+
+	<script src="./assets/js/main.js"></script>
+</body>
+
+</html>

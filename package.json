@@ -1,0 +1,23 @@
+{
+  "name": "cpfmanager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+	"test": "echo \"Error: no test specified\" && exit 1",
+	"start": "node servidor.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoaoP13/CPF-Manager.git"
+  },
+  "author": "Joao Paulo Goncalves de Souza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoaoP13/CPF-Manager/issues"
+  },
+  "homepage": "https://github.com/JoaoP13/CPF-Manager#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

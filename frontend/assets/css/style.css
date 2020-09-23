@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+:root {
+  --primary-color: rgb(17, 86, 102);
+  --primary-color-darker: rgb(9, 48, 56);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+h1 {
+	text-align: center;
+	font-size: 3em;
+	color: rgb(202, 236, 241);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--primary-color);
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+  background-image: url('../img/background.jpg');
+}
+
+.container {
+  max-width: 640px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.campoValidador {
+	width: 100%;
+}
+
+.campoGerador {
+	width: 100%;
+	margin-top: 10px;
+}
+
+.input {
+	width: 70%;
+	height: 35px;
+	border-radius: 8px;
+	text-align: center;
+}
+
+.inputTextValid {
+	background: green;
+}
+
+.inputTextInvalid {
+	background: red;
+}
+
+.botao {
+	width: 174px;
+	height: 35px;
+	border-radius: 8px;
+	cursor: pointer;
+}
+
+.listaObservacoes {
+	color: black;
+	background-color: rgba(255, 255, 255, 0.85);
+	border-radius: 8px;
+	font-size: 18px;
+}
